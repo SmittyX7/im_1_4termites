@@ -1,13 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="v/[+F}/LnBO@]5#A1Ir_" x="-240" y="4"><comment pinned="false" h="80" w="160">When the micro:bit isn't shaking, a smiley face appears.</comment><statement name="HANDLER"><block type="device_show_leds" id="-ypl^!oI_e|)NWgFV!]i"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_gesture_event" id="nOYd#bnr~BLYJ@~+reC5" x="-181" y="-82"><field name="NAME">Gesture.Shake</field><comment pinned="false" h="80" w="160">When the user shakes the micro:bit, a frown face appears.</comment><statement name="HANDLER"><block type="device_show_leds" id="7pG5.vOtQe:)y(yF[dHg"><field name="LEDS">`
         . # . # . 
         . # . # . 
         . . . . . 
         . # # # . 
         # . . . #
-        `</field><next><block type="device_show_leds" id="L-oj?Z,xc*ZY.W!0{ESf"><field name="LEDS">`
+        `</field><next><block type="device_pause" id="c;09Ef~.RGS0BX{5f3dz"><value name="pause"><shadow type="timePicker" id="fwANIhW%]nG)Z(7qPiS2"><field name="ms">200</field></shadow></value><next><block type="device_show_leds" id="n:5z2VQBA)6amOLqb#?!"><field name="LEDS">`
         . # . # . 
         . # . # . 
         . . . . . 
         # . . . # 
         . # # # .
-        `</field></block></next></block></statement></block><block type="device_gesture_event" id="rE?#cvcMgkHm.3nxf.2p" x="0" y="0"><field name="NAME">Gesture.Shake</field><comment pinned="false" h="80" w="160">When the user shakes the micro:bit, a frown face appears.</comment></block></xml>
+        `</field><next><block type="device_pause" id="`=vPw3K%Q#sRr*.Ei*3N"><value name="pause"><shadow type="timePicker" id="_(=P:T~J|5$M%2iSLxku"><field name="ms">200</field></shadow></value><next><block type="device_clear_display" id="Zs*)76yg@;N#Sj/Ge7-I"></block></next></block></next></block></next></block></next></block></statement></block></xml>
