@@ -1,5 +1,5 @@
 {
-    "name": "CSIM Termites Debug Answer",
+    "name": "CSIM Inverted Termites Debug Answer",
     "description": "",
     "dependencies": {
         "core": "*",

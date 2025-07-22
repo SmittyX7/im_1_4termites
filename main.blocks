@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_gesture_event" id="nOYd#bnr~BLYJ@~+reC5" x="-181" y="-82"><field name="NAME">Gesture.Shake</field><comment pinned="false" h="80" w="160">When the user shakes the micro:bit, a frown face appears.</comment><statement name="HANDLER"><block type="device_show_leds" id="7pG5.vOtQe:)y(yF[dHg"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_gesture_event" id="nOYd#bnr~BLYJ@~+reC5" x="0" y="0"><field name="NAME">Gesture.Shake</field><comment pinned="false" h="80" w="160">When the user shakes the micro:bit, a frown face appears.</comment><statement name="HANDLER"><block type="device_show_leds" id="7pG5.vOtQe:)y(yF[dHg"><field name="LEDS">`
         . # . # . 
         . # . # . 
         . . . . . 
